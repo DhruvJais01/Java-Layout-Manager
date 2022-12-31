@@ -10,7 +10,7 @@ public class Main {
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 //-----------------------------------------------------------
-        BoxLayoutExample1 Example=new BoxLayoutExample1(jFrame);
+        BoxLayoutExample2 Example=new BoxLayoutExample2(jFrame);
 // ----------------------------------------------------------
         jFrame.setSize(600,600);
         jFrame.setVisible(true);

@@ -27,3 +27,7 @@ The Java BoxLayout class is used to arrange the components either vertically or 
     setLayout (new BoxLayout (this, BoxLayout.X_AXIS));   //extending an container
     or
     panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
+
+<div align="center">
+<img src="../Images/X_AXIS.PNG" width="300"/>
+</div>
