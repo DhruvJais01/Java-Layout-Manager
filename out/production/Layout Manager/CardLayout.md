@@ -6,8 +6,8 @@ The Java CardLayout class manages the components in such a manner that only one 
 
 
 + CardLayout(int hgap, int vgap): creates a card layout with the given horizontal and vertical gap.
-Commonly Used Methods of CardLayout Class
 
+## Commonly Used Methods of CardLayout Class
 
 + public void next(Container parent): is used to flip to the next card of the given container.
 
@@ -25,3 +25,10 @@ Commonly Used Methods of CardLayout Class
 
 ---
 ### Using Default Constructor
+        container =  jFrame.getContentPane();
+        cardLayout=new CardLayout();    /default constructor
+        container.setLayout(cardLayout);
+---
+### Using Parameterized Constructor
+
+    
