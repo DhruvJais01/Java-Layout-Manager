@@ -13,6 +13,8 @@ The Java BoxLayout class is used to arrange the components either vertically or 
 
     BoxLayout(Container c, int axis): creates a box layout that arranges the components with the given axis.
 
+---
+
 ### BoxLayout class with Y-AXIS
 
     setLayout (new BoxLayout (this, BoxLayout.Y_AXIS));   //extending an container
@@ -22,12 +24,36 @@ The Java BoxLayout class is used to arrange the components either vertically or 
 <img src="../Images/Y_AXIS.PNG" width="300"/>
 </div>
 
+---
+
 ### BoxLayout class with X-AXIS
 
     setLayout (new BoxLayout (this, BoxLayout.X_AXIS));   //extending an container
-    or
+                                or
     panel.setLayout(new BoxLayout(panel,BoxLayout.X_AXIS));
 
 <div align="center">
 <img src="../Images/X_AXIS.PNG" width="300"/>
 </div>
+
+---
+
+### BoxLayout class with LINE-AXIS
+
+    setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT);   // extending container
+                                    or
+    panel.setComponentOrientation(ComponentOrientation.RIGHT_TO_LEFT); 
+    
+        // the ComponentOrientation is set to RIGHT_TO_LEFT. Therefore,  
+        // the added buttons will be rendered from right to left   
+    
+    setLayout (new BoxLayout (this, BoxLayout.LINE_AXIS));   //extending an container
+                                    or
+    panel.setLayout(new BoxLayout(panel,BoxLayout.LINE_AXIS));
+
+<div align="center">
+<img src="../Images/LINE_AXIS.PNG" width="300"/>
+</div>
+
+---
+
