@@ -26,9 +26,13 @@ The Java CardLayout class manages the components in such a manner that only one 
 ---
 ### Using Default Constructor
         container =  jFrame.getContentPane();
-        cardLayout=new CardLayout();    /default constructor
+        cardLayout=new CardLayout();    //default constructor
         container.setLayout(cardLayout);
 ---
 ### Using Parameterized Constructor
+        container =  jFrame.getContentPane();
+        cardLayout=new CardLayout(140,130); //hgap 140, vgap 130    
+        container.setLayout(cardLayout);
+---
 
     

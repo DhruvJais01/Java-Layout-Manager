@@ -10,7 +10,7 @@ public class Main {
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 //-----------------------------------------------------------
-        CardLayoutExample2 Example=new CardLayoutExample2(jFrame);
+        CardLayoutExample3 Example=new CardLayoutExample3(jFrame);
 // ----------------------------------------------------------
 
         jFrame.setSize(600,600);
